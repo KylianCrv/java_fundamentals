@@ -21,5 +21,10 @@ public class Datatypes {
         byte age=25;
 
         System.out.println("Je suis "+nom+" "+prenom+", j'ai "+age+" ans. Mon tjm est de "+tarif+"€");
+
+        System.out.printf("Je suis %s %s, j'ai %d ans.\nMon tjm est de %.1f€.", prenom,
+                nom,
+                age,
+                tarif);
     }
 }
