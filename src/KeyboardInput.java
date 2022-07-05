@@ -17,15 +17,15 @@ public class KeyboardInput {
 
         System.out.print("Votre poids : ");
         float poids = input.nextFloat();
-//      Nom : Carvalho
-        //Prénom : Kylian
-        //Age : 25
-        //Poids : 65
+//              Nom : Carvalho
+//              Prénom : Kylian
+//              Age : 25
+//              Poids : 65
 
-        //       System.out.printf("Nom : %s\n",nom);
-        //       System.out.printf("Prénom : %s\n",prenom);
-        //        System.out.printf("Âge : %d\n", age);
-//        System.out.printf("Poids : %f\n", poids);
+//               System.out.printf("Nom : %s\n",nom);
+//               System.out.printf("Prénom : %s\n",prenom);
+//               System.out.printf("Âge : %d\n", age);
+//               System.out.printf("Poids : %f\n", poids);
 
         System.out.printf("Nom : %s\nPrénom : %s\nAge : %d ans\nPoids : %.2f kg", nom, prenom, age, poids);
     }
