@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Tp7 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Saisir un entier");
+        System.out.print("Saisir un nombre entre 1 et 12");
         int mois = input.nextInt();
 
             switch (mois){
@@ -44,7 +44,7 @@ public class Tp7 {
                     System.out.println("Décembre");
                     break;
                 default:
-                    System.out.println("Veuillez saisir un mois valide");
+                    System.out.println("Veuillez saisir un nombre valide compris entre 1 et 12");
             }
     }
 }

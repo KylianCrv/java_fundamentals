@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Tp6 {
+public class SecondDegres {
     public static void main(String[] args) {
 
         System.out.println("Résolution d'une équation du 2nd degré :\n");
@@ -14,14 +14,12 @@ public class Tp6 {
         double c = input.nextDouble();
 
         double delta = Math.pow(b, 2) - (4 * a * c);
+        double x1, x2;
 
         if (delta > 0) {
-            double x1 = ((-b-Math.sqrt(delta))/(2*a));
-            double x2 = ((-b+Math.sqrt(delta))/(2*a));
+             x1 = ((-b - Math.sqrt(delta)) / (2 * a));
+             x2 = ((-b + Math.sqrt(delta)) / (2 * a));
             System.out.printf("L'équation a deux solutions : x1 = %.2f et x2 = %.2f", x1, x2);
-        } else if (delta == 0) {
-            double x=-(b/(2*a));
-            System.out.printf("L'équation a une seule solution : %.2f", x);
         } else {
             System.out.println("L'équation n'a pas de solutions réelles");
         }
