@@ -34,9 +34,10 @@ public class Main {
 
 //        Utilisation du constructeur de copie
         Avion airbusA330 = new Avion(airbusA320);
-        airbusA330.setModele("A330");
-        System.out.println(airbusA320.getModele());
-        System.out.println(airbusA330.getModele());
+//        Compare les références
+        System.out.println(airbusA330==airbusA320);
+//        Compare les attributs
+        System.out.println(airbusA330.equals(airbusA320));
 
 
 

@@ -31,6 +31,14 @@ public class Avion {
         this.couleur = avion.couleur;
         this.nbSieges = avion.nbSieges;
     }
+//Comparaison des objets
+
+    public boolean equals(Avion avion) {
+        if (avion == null) {
+    return false;
+        }
+        return this.fabricant==avion.fabricant && this.modele==avion.modele && this.nbSieges==avion.nbSieges && this.couleur==avion.couleur;
+    }
 
     //    GETTERS ou Accesseurs
     public String getFabricant() {
@@ -66,8 +74,13 @@ public class Avion {
         this.couleur = couleur;
     }
 
-    String nomCompletAvion() {
+    public String nomCompletAvion() {
 //        return fabricant+" "+modele;
         return String.format("%s %s", fabricant, modele);
+    }
+
+    public String toString() {
+        return String.format("Fabricant : %s\nModèle : %s\nNombres de sièges : %d\nCouleur : %s",
+                fabricant, modele, nbSieges, couleur);
     }
 }
