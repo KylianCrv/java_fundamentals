@@ -21,17 +21,17 @@ public class Avion {
     }
 
 //    SETTERS ou Manipulateurs
-    public void setFabricant(String nouvelleValeur){
-        fabricant=nouvelleValeur;
+    public void setFabricant(String fabricant){
+        this.fabricant=fabricant;
     }
-    public void setModele(String nouvelleValeur){
-        modele=nouvelleValeur;
+    public void setModele(String modele){
+        this.modele=modele;
     }
-    public void setNbSieges(int nouvelleValeur){
-        nbSieges=nouvelleValeur;
+    public void setNbSieges(int nbSieges){
+        this.nbSieges=nbSieges;
     }
-    public void setCouleur(String nouvelleValeur){
-        couleur=nouvelleValeur;
+    public void setCouleur(String couleur){
+        this.couleur=couleur;
     }
     String nomCompletAvion() {
 //        return fabricant+" "+modele;
