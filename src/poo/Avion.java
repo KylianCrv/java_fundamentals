@@ -1,10 +1,20 @@
 package poo;
 
+//Constructeur par défaut par défaut : version minimale du constructeur que la JVM invoque lorsque l'on définit aucun constructeur
+
 public class Avion {
     private String fabricant;
     private String modele;
     private int nbSieges;
     private String couleur;
+
+//    Constructeur
+    public Avion(String fabricant, String modele, int nbSieges,String couleur){
+        this.fabricant=fabricant;
+        this.modele=modele;
+        this.nbSieges=nbSieges;
+        this.couleur=couleur;
+    }
 
 //    GETTERS ou Accesseurs
     public String getFabricant() {
