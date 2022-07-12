@@ -17,6 +17,10 @@ public class Main {
 
         System.out.println("\n");
 
+//        Mauvaise approche car on copie la référence => a et boeing737 pointe vers le meme objet
+//        Avion a = boeing737;
+
+
         Avion airbusA320 = new Avion("Airbus","A320",150,"white");
 //        airbusA320.setFabricant("Airbus");
 //        airbusA320.setModele("A320");
@@ -27,6 +31,13 @@ public class Main {
                 ,airbusA320.getFabricant(), airbusA320.getModele(),airbusA320.getNbSieges(),airbusA320.getCouleur());
 
         System.out.println("\n");
+
+//        Utilisation du constructeur de copie
+        Avion airbusA330 = new Avion(airbusA320);
+        airbusA330.setModele("A330");
+        System.out.println(airbusA320.getModele());
+        System.out.println(airbusA330.getModele());
+
 
 
     }

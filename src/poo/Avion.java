@@ -24,6 +24,14 @@ public class Avion {
         couleur = "white";
     }
 
+    //    Constructeur de copie
+    public Avion(Avion avion) {
+        this.fabricant = avion.fabricant;
+        this.modele = avion.modele;
+        this.couleur = avion.couleur;
+        this.nbSieges = avion.nbSieges;
+    }
+
     //    GETTERS ou Accesseurs
     public String getFabricant() {
         return fabricant;
