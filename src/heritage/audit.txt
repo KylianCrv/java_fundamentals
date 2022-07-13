@@ -1,0 +1,12 @@
+points commun de toutes les classes:
+
+Attributs :
+=> nom
+=> durée de vie
+
+Méthode :
+=>rencontrer()
+=>getNom()
+=>setNom()
+=>getDureeDeVie()
+=setDureeDeVie()
