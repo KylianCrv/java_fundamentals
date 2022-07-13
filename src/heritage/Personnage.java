@@ -26,7 +26,7 @@ public class Personnage {
     }
 
     public void rencontrer(){
-        System.out.println("Je vais te tuer.");
+        System.out.println("Je suis un personnage.");
     }
 
     public String toString(){

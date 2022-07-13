@@ -17,6 +17,7 @@ public class Sorcier extends Magicien{
         this.batonMagique = batonMagique;
     }
 
+    @Override
     public void rencontrer(){
         System.out.println("Je vais te transformer en biscuit.");
     }
