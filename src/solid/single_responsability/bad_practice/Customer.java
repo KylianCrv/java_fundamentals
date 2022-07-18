@@ -4,12 +4,12 @@ import java.util.ArrayList;
 
 //1.La liste doit etre à l'extérieur de la classe
 //2.ajout/suppression ne doit pas etre dans la classe Customer (principe KISS)
-public class CustomerBadPractice {
+public class Customer {
     private int id;
     private String name;
     private boolean activ;
 
-    private ArrayList<CustomerBadPractice> customers;
+    private ArrayList<Customer> customers;
     public int getId() {
         return id;
     }
@@ -34,11 +34,11 @@ public class CustomerBadPractice {
         this.activ = activ;
     }
 
-    public void addCustomer(CustomerBadPractice customer){
-        this.customers.add(new CustomerBadPractice());
+    public void addCustomer(Customer customer){
+        this.customers.add(new Customer());
     }
 
-    public void deleteCustomer(CustomerBadPractice customer){
+    public void deleteCustomer(Customer customer){
         this.customers.remove(id);
     }
 }

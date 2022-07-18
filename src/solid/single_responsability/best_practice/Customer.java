@@ -1,7 +1,7 @@
 package solid.single_responsability.best_practice;
 
 //Ce code respecte le S de Solid (Single responsibility)
-public class CustomerBestPractice {
+public class Customer {
     private int id;
     private String name;
     private boolean activ;
