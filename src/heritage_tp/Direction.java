@@ -1,4 +1,4 @@
-package heritageTP;
+package heritage_tp;
 
 public abstract class Direction {
     private String role;

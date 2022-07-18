@@ -1,4 +1,4 @@
-package heritageTP;
+package heritage_tp;
 
 public class ExchangeStudent extends Direction{
     private String sectionApprentissage;

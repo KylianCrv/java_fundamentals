@@ -1,4 +1,4 @@
-package heritageTP;
+package heritage_tp;
 
 import java.util.ArrayList;
 

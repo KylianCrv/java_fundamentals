@@ -8,6 +8,5 @@ public class Main {
 
         var action = new Actions();
         action.presenterUnPersonnageVolant(superman);
-        action.presenterUnPersonnageVolant(insecte);
     }
 }

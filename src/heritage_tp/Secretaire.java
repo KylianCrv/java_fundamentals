@@ -1,4 +1,4 @@
-package heritageTP;
+package heritage_tp;
 
 public class Secretaire extends Direction {
     private String nomLabo;

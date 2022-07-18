@@ -1,4 +1,4 @@
-package heritageTP;
+package heritage_tp;
 
 public class Enseignant extends Secretaire{
     private String sectionEnseignement;
